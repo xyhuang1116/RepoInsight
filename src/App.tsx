@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Github, Upload } from 'lucide-react';
+import { Upload } from 'lucide-react';
+import { SiGithub } from '@icons-pack/react-simple-icons';
 import { AnalysisStats } from './components/AnalysisStats';
 import { FileAnalysis } from './components/FileAnalysis';
 import type { AnalysisReport } from './types';
@@ -76,7 +77,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <Github className="w-8 h-8 text-gray-900" />
+              <SiGithub className="w-8 h-8 text-gray-900" />
               <h1 className="ml-2 text-xl font-bold text-gray-900">
                 RepoInsight
               </h1>
